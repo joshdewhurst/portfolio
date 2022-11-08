@@ -62,7 +62,7 @@ export default function Home() {
               <div class="flex-grow border-t border-gray-400"></div>
           </div>
         <div className='justify-evenly flex p-4 text-center'>
-            <div className='flex-col'>
+            <div className='flex-col w-1/3'>
               <p className="text-gray-800 py-1">C++
                   <div className='justify-center text-2xl flex'>
                     <SiCplusplus />
@@ -80,7 +80,7 @@ export default function Home() {
                 </p>
             </div>
               
-              <div className='flex-col'>
+              <div className='flex-col w-1/3'>
                 <p className="text-gray-800 py-1">Java
                   <div className='justify-center text-2xl flex'>
                   <SiJava />
@@ -103,7 +103,7 @@ export default function Home() {
               </p>
               </div>
 
-             <div className='flex-col'>
+             <div className='flex-col w-1/3'>
              <p className="text-gray-800 py-1">React
                 <div className='justify-center text-2xl flex'>
                 <SiReact />

@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import {AiFillTwitterCircle, AiFillMail, AiFillLinkedin, AiFillGithub, AiOutlineLink} from 'react-icons/ai'
-import {SiCplusplus, SiJavascript, SiTailwindcss, SiMongodb, SiNodedotjs, SiReact} from 'react-icons/si'
+import {AiFillTwitterCircle, AiFillMail, AiFillLinkedin, AiFillGithub, AiOutlineLink, AiFillSignal, AiFillPushpin, AiFillTrophy} from 'react-icons/ai'
+import {SiCplusplus, SiJavascript, SiTailwindcss, SiMongodb, SiNodedotjs, SiReact, SiPython, SiJava} from 'react-icons/si'
 import Image from 'next/image'
 import josh from '../josh.jpg'
 import jd from '../jd.jpg'
@@ -54,6 +54,85 @@ export default function Home() {
           Josh is full-stack software engineer with an emphasis in backend development and experience in project management and team development. Josh's core values both professionally and personally are: honest communication and collaboration, openness to growth and development, and an intentional commitment to uplifting marginalized communities that have been systematically subjugated.
         </p>
       </div>
+
+      <div className='items-center'>
+          <div class="relative flex py-5 items-center text-center justify-center">
+              <div class="flex-grow border-t border-gray-400"></div>
+              <span class="flex mx-4 text-gray-400">Technical Skills</span>
+              <div class="flex-grow border-t border-gray-400"></div>
+          </div>
+        <div className='justify-evenly flex p-4 text-center'>
+            <div className='flex-col'>
+              <p className="text-gray-800 py-1">C++
+                  <div className='justify-center text-2xl flex'>
+                    <SiCplusplus />
+                  </div>
+                </p>
+                <p className="text-gray-800 py-1">JavaScript
+                  <div className='justify-center text-2xl flex'>
+                  <SiJavascript />
+                  </div>
+                </p>
+                <p className="text-gray-800 py-1">Python
+                  <div className='justify-center text-2xl flex'>
+                  <SiPython />
+                  </div>
+                </p>
+            </div>
+              
+              <div className='flex-col'>
+                <p className="text-gray-800 py-1">Java
+                  <div className='justify-center text-2xl flex'>
+                  <SiJava />
+                  </div>
+                </p>
+                <p className="text-gray-800 py-1">Tailwind
+                  <div className='justify-center text-2xl flex'>
+                    <SiTailwindcss />
+                  </div>
+                </p>
+                <p className="text-gray-800 py-1">MongoDB and Mongoose
+                  <div className='justify-center text-2xl flex'>
+                  <SiMongodb />
+                  </div>
+                </p>
+                <p className="text-gray-800 py-1">Leadership Development
+                <div className='justify-center text-2xl flex'>
+                  <AiFillTrophy />
+                </div>
+              </p>
+              </div>
+
+             <div className='flex-col'>
+             <p className="text-gray-800 py-1">React
+                <div className='justify-center text-2xl flex'>
+                <SiReact />
+                </div>
+              </p>
+              <p className="text-gray-800 py-1">Financial Analytics
+                <div className='justify-center text-2xl flex'>
+                  <AiFillSignal />
+                </div>
+              </p>
+              <p className="text-gray-800 py-1">Project Management
+                <div className='justify-center text-2xl flex'>
+                  <AiFillPushpin />
+                </div>
+              </p>
+              
+             </div>
+            
+        </div>
+
+        <div class="relative flex py-5 items-center">
+              <div class="flex-grow border-t border-gray-400"></div>
+        </div>
+
+        </div>
+              
+        
+      
+
     </section>
     <section>
       <div>

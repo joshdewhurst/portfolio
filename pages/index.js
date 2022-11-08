@@ -302,7 +302,7 @@ export default function Home() {
                         height={200}/>
                        </a>
                        <p className='text-xl font-normal'>
-                          Let's connect on LinkedIn.
+                       Check out my GitHub for all current projects and past repositories! 
                            </p>
                       </div>
                       <div className='flex p-4'>
@@ -312,7 +312,7 @@ export default function Home() {
                           height={200}/>
                         </a>
                         <p className='text-xl font-normal'>
-                          Check out my GitHub for all current projects and past repositories!
+                          Let's connect on LinkedIn.
                         </p>
                       </div>
 

@@ -167,12 +167,12 @@ export default function Home() {
   <div className="max-w-3xl w-full shadow-lg rounded-xl overflow-hidden bg-white dark:bg-slate-200 hover:shadow-xl transition-all duration-300">
     <div className="flex items-center justify-center p-4 bg-slate-400 text-white">
       <a href="https://github.com/joshdewhurst/dora-client" target="_blank" rel="noopener noreferrer">
-        <AiFillGithub className="text-3xl hover:text-4xl px-4" />
+        <AiFillGithub className="text-3xl hover:text-4xl" />
       </a>
-      <a href="https://doramusica.netlify.app/" target="_blank" rel="noopener noreferrer">
-        <AiOutlineLink className="text-3xl hover:text-4xl px-4" />
+        <a href=https://doramusica.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <AiOutlineLink className="text-3xl hover:text-4xl" />
       </a>
-      <h3 className="ml-4 text-xl font-semibold">d'ora</h3>
+      <h3 className="ml-4 text-xl font-semibold">D'ora</h3>
     </div>
     <div className="p-6">
       <p className="text-gray-800 mb-4">

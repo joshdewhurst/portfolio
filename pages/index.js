@@ -163,31 +163,29 @@ export default function Home() {
   </div>
 </div>
 
-<div className="flex flex-col items-center justify-center">
-  <div className="w-full max-w-4xl p-8 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
-    <div className="flex items-center justify-between mb-6">
-      <div className="flex items-center">
-        <a href="https://github.com/joshdewhurst/dora-client" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 mr-4">
-          <AiFillGithub className="text-2xl" />
-        </a>
-        <a href="https://doramusica.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900">
-          <AiOutlineLink className="text-2xl" />
-        </a>
-      </div>
-      <h3 className="text-2xl font-bold text-gray-800">
-        d'ora
-      </h3>
-    </div>
-    <p className="text-lg text-gray-700 leading-relaxed mb-8">
-      d'ora is a React-based Node.js application that uses Express.js and MongoDB for the backend. The dora client uses Axios to connect to an API and retrieve information on songs and artists that the user can interact with. Both the server and client sides use JavaScript, and the interface is designed with EJS and Tailwind. JSON Web Token (JWT) is used for user data protection and authentication.
-    </p>
-    <div className="flex justify-center">
-      <Image src={dora} width={500} height={500} />
-    </div>
-  </div>
-</div>
-
-
+      <div>
+      <div className="text-center shadow-lg shadow-black bg-slate-200 p-10 rounded-xl my-10  dark:bg-white flex-1 hover:bg-slate-300">
+              <div className='flex px-4'>
+                <div className='text-3xl hover:text-4xl px-4'>
+                  <a href="https://github.com/joshdewhurst/dora-client">
+                  <AiFillGithub />
+                  </a>
+                  </div>
+                  <div className='text-3xl hover:text-4xl px-4'>
+                  <a href="https://doramusica.netlify.app/">
+                  <AiOutlineLink />
+                  </a>
+                  </div>
+              </div>
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                d'ora
+              </h3>
+              <p className="py-6">
+              d'ora is a react based Node.js application. The backend of our project dora Server uses Express.js along with a noSQL database called mongoDB. dora Client uses axios to connect with an API and gather information on songs and artist, which the user can interact with. Javascript is used throughout server and client sides. EJS (Embedded JavaScript Templating) and Tailwind are both used to design the interface that the user inteacts with. JWT(JSON Web Token) is used to protect a users data and authenticate them.
+              </p>
+              <div className='justify-center flex p-4'>
+              <Image src={dora} width={500} height={500} />
+              </div>
               <div className='justify-evenly flex p-4'>
                 <p className="text-gray-800 py-1">JavaScript
                 <div className='justify-center text-2xl flex'>
@@ -219,6 +217,7 @@ export default function Home() {
               </div>
             </div>
       </div>
+
 
       <div>
       <div className="text-center shadow-lg shadow-black bg-slate-200 p-10 rounded-xl my-10  dark:bg-white flex-1 hover:bg-slate-300">

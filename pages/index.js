@@ -140,29 +140,29 @@ export default function Home() {
           Recent Technical Projects
         </h3>
       </div>
-      <div>
-      <div className="text-center shadow-lg shadow-black bg-slate-200 p-10 rounded-xl my-10  dark:bg-white flex-1 hover:bg-slate-300">
-                <div className='text-3xl hover:text-4xl'>
-                <a href="https://github.com/joshdewhurst/hand-of-zeus">
-                <AiFillGithub />
-                </a>
-                </div>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                The Hand of Zeus
-              </h3>
-              <p className="py-2">
-              A C++ management system. Zues, the admin, is able to perform different oporations to change the system's data. C++ libraries will be used to track operations that create a new entry, delete an entry, or edit an entry within the database. The user will also be able to edit their username and password.
-              </p>
-              <div className='justify-center flex p-3'>
-              <Image src={zeus} width={500} height={500} />
-              </div>
-              <p className="text-gray-800 py-1">C++
-                <div className='justify-center text-2xl flex'>
-                  <SiCplusplus />
-                </div>
-              </p>
-            </div>
+      <div className="flex justify-center my-10">
+  <div className="max-w-3xl w-full shadow-lg rounded-xl overflow-hidden bg-white dark:bg-slate-200 hover:shadow-xl transition-all duration-300">
+    <div className="flex items-center justify-center p-4 bg-slate-400 text-white">
+      <a href="https://github.com/joshdewhurst/hand-of-zeus" target="_blank" rel="noopener noreferrer">
+        <AiFillGithub className="text-3xl hover:text-4xl" />
+      </a>
+      <h3 className="ml-4 text-xl font-semibold">The Hand of Zeus</h3>
+    </div>
+    <div className="p-6">
+      <p className="text-gray-800 mb-4">
+        A C++ management system that allows the admin, Zeus, to perform different operations to manage the system's data. C++ libraries are used to track operations that create a new entry, delete an entry, or edit an entry within the database. Users can also edit their username and password.
+      </p>
+      <div className="flex justify-center">
+        <Image src={zeus} width={500} height={500} />
       </div>
+      <div className="mt-4 text-gray-800 flex justify-center items-center">
+        <span className="mr-2">Built with</span>
+        <SiCplusplus className="text-2xl" />
+      </div>
+    </div>
+  </div>
+</div>
+
       <div>
       <div className="text-center shadow-lg shadow-black bg-slate-200 p-10 rounded-xl my-10  dark:bg-white flex-1 hover:bg-slate-300">
               <div className='flex px-4'>

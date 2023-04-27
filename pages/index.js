@@ -184,7 +184,6 @@ export default function Home() {
       <div className="mt-4 text-gray-800 flex justify-center items-center">
         <span className="mr-2">Built with</span>
         <SiJavascript className="text-2xl" />
-        <SiExpress className="text-2xl ml-4" />
         <SiTailwindcss className="text-2xl ml-4" />
         <SiMongodb className="text-2xl ml-4" />
         <SiNodedotjs className="text-2xl ml-4" />

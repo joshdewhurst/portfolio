@@ -163,60 +163,36 @@ export default function Home() {
   </div>
 </div>
 
-      <div>
-      <div className="text-center shadow-lg shadow-black bg-slate-200 p-10 rounded-xl my-10  dark:bg-white flex-1 hover:bg-slate-300">
-              <div className='flex px-4'>
-                <div className='text-3xl hover:text-4xl px-4'>
-                  <a href="https://github.com/joshdewhurst/dora-client">
-                  <AiFillGithub />
-                  </a>
-                  </div>
-                  <div className='text-3xl hover:text-4xl px-4'>
-                  <a href="https://doramusica.netlify.app/">
-                  <AiOutlineLink />
-                  </a>
-                  </div>
-              </div>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                d'ora
-              </h3>
-              <p className="py-6">
-              d'ora is a react based Node.js application. The backend of our project dora Server uses Express.js along with a noSQL database called mongoDB. dora Client uses axios to connect with an API and gather information on songs and artist, which the user can interact with. Javascript is used throughout server and client sides. EJS (Embedded JavaScript Templating) and Tailwind are both used to design the interface that the user inteacts with. JWT(JSON Web Token) is used to protect a users data and authenticate them.
-              </p>
-              <div className='justify-center flex p-4'>
-              <Image src={dora} width={500} height={500} />
-              </div>
-              <div className='justify-evenly flex p-4'>
-                <p className="text-gray-800 py-1">JavaScript
-                <div className='justify-center text-2xl flex'>
-                <SiJavascript />
-                </div>
-                </p>
-                <p className="text-gray-800 py-1">Express</p>
-                <p className="text-gray-800 py-1">Tailwind
-                <div className='justify-center text-2xl flex'>
-                  <SiTailwindcss />
-                </div>
-                </p>
-                <p className="text-gray-800 py-1">MongoDB and Mongoose
-                <div className='justify-center text-2xl flex'>
-                <SiMongodb />
-                </div>
-                </p>
-                <p className="text-gray-800 py-1">Node.js
-                <div className='justify-center text-2xl flex'>
-                <SiNodedotjs />
-                </div>
-                </p>
-                <p className="text-gray-800 py-1">Bcrypt</p>
-                <p className="text-gray-800 py-1">React
-                <div className='justify-center text-2xl flex'>
-                <SiReact />
-                </div>
-                </p>
-              </div>
-            </div>
+<div className="flex justify-center my-10">
+  <div className="max-w-3xl w-full shadow-lg rounded-xl overflow-hidden bg-white dark:bg-slate-200 hover:shadow-xl transition-all duration-300">
+    <div className="flex items-center justify-center p-4 bg-slate-400 text-white">
+      <a href="https://github.com/joshdewhurst/dora-client" target="_blank" rel="noopener noreferrer">
+        <AiFillGithub className="text-3xl hover:text-4xl px-4" />
+      </a>
+      <a href="https://doramusica.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <AiOutlineLink className="text-3xl hover:text-4xl px-4" />
+      </a>
+      <h3 className="ml-4 text-xl font-semibold">d'ora</h3>
+    </div>
+    <div className="p-6">
+      <p className="text-gray-800 mb-4">
+        d'ora is a react based Node.js application. The backend of our project dora Server uses Express.js along with a noSQL database called mongoDB. dora Client uses axios to connect with an API and gather information on songs and artist, which the user can interact with. Javascript is used throughout server and client sides. EJS (Embedded JavaScript Templating) and Tailwind are both used to design the interface that the user inteacts with. JWT(JSON Web Token) is used to protect a users data and authenticate them.
+      </p>
+      <div className="flex justify-center">
+        <Image src={dora} width={500} height={500} />
       </div>
+      <div className="mt-4 text-gray-800 flex justify-center items-center">
+        <span className="mr-2">Built with</span>
+        <SiJavascript className="text-2xl" />
+        <SiExpress className="text-2xl ml-4" />
+        <SiTailwindcss className="text-2xl ml-4" />
+        <SiMongodb className="text-2xl ml-4" />
+        <SiNodedotjs className="text-2xl ml-4" />
+        <SiReact className="text-2xl ml-4" />
+      </div>
+    </div>
+  </div>
+</div>
 
 
       <div>

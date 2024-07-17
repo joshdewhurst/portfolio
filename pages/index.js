@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { AiFillMail, AiFillLinkedin, AiFillGithub, AiOutlineLink } from 'react-icons/ai'
 import { SiOracle, SiSap, SiPowerbi, SiTableau, SiPython, SiJavascript, SiReact, SiTailwindcss, SiMongodb, SiNodedotjs } from 'react-icons/si'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -36,9 +37,6 @@ export default function Home() {
             <h3 className="text-2xl py-2 text-gray-600">People Operations and HR Specialist</h3>
             <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
               I am an accomplished People Operations professional with expertise in HR management, compliance, and data analysis. I have a strong background in developing compensation philosophies, enhancing employee retention, and promoting diversity and inclusion within organizations.
-            </p>
-            <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
-              I hold a Bachelor of Arts in Classics from the University of California, Santa Barbara, a Data Science Certificate from UC Berkeley, a Software Engineering Certificate from General Assembly, and a Justice, Equity, Diversity, and Inclusion Certificate from the Weitzman Institute.
             </p>
           </div>
         </section>
@@ -109,6 +107,34 @@ export default function Home() {
                 <p className="text-gray-800">
                   Led an equity analysis project to evaluate company demographics and identify significant concerns in leadership diversity. Generated custom reports using Microsoft Suite and presented findings to the board to drive diversity and inclusion initiatives.
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" className="py-20 bg-white">
+          <div className="container mx-auto">
+            <h3 className="text-3xl py-1 text-center text-gray-800">Education & Certifications</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105 text-center">
+                <Image src="https://th.bing.com/th/id/OIP.51j02La--drxV97eVqtKzwHaDC?w=325&h=143&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="UCSB Logo" width={150} height={70} className="mx-auto" />
+                <h4 className="text-xl font-semibold text-gray-800 my-4">University of California, Santa Barbara</h4>
+                <p className="text-gray-800">Bachelor of Arts in Classics</p>
+              </div>
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105 text-center">
+                <Image src="https://th.bing.com/th/id/OIP.78x1_amOuPb6wHZ-TFg3jAHaBz?w=316&h=85&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="UC Berkeley Logo" width={150} height={70} className="mx-auto" />
+                <h4 className="text-xl font-semibold text-gray-800 my-4">University of California, Berkeley</h4>
+                <p className="text-gray-800">Data Science Certificate</p>
+              </div>
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105 text-center">
+                <Image src="https://clipground.com/images/general-assembly-logo-png-5.png" alt="General Assembly Logo" width={150} height={70} className="mx-auto" />
+                <h4 className="text-xl font-semibold text-gray-800 my-4">General Assembly</h4>
+                <p className="text-gray-800">Software Engineering Certificate</p>
+              </div>
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105 text-center">
+                <Image src="https://th.bing.com/th/id/OIP.8Qrp7DygOrwmDS0KqNhkhgAAAA?w=133&h=176&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Weitzman Institute Logo" width={150} height={70} className="mx-auto" />
+                <h4 className="text-xl font-semibold text-gray-800 my-4">Weitzman Institute</h4>
+                <p className="text-gray-800">Justice, Equity, Diversity, and Inclusion Certificate</p>
               </div>
             </div>
           </div>

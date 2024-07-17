@@ -41,10 +41,10 @@ export default function About() {
               </div>
               <h2 className="text-5xl py-2 text-gray-900 font-medium">About Me</h2>
               <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl">
-                Hi! My name is Josh Dewhurst, and I am a People Operations specialist with a strong background in HR management, compliance, and data analysis. I am located in San Francisco, CA, and I am passionate about promoting diversity and inclusion within organizations.
+                I am a dedicated People Operations Business Partner with a proven track record in HR management, compliance, and data analysis. Currently working at the San Francisco AIDS Foundation, I have developed a Compensation Philosophy projected to reduce our deficit budget by 33% over 5 years, addressing equity concerns by identifying bias in salary raises and centralizing advancement processes.
               </p>
               <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl">
-                I hold a Bachelor of Arts in Classics from the University of California, Santa Barbara, a Data Science Certificate from UC Berkeley, a Software Engineering Certificate from General Assembly, and a Justice, Equity, Diversity, and Inclusion Certificate from the Weitzman Institute.
+                My expertise includes overhauling onboarding processes to increase retention rates, managing employee relations for over 300 employees, and writing comprehensive handbooks and policies. I am passionate about promoting diversity and inclusion, and I strive to create equitable workplaces.
               </p>
             </div>
           </div>

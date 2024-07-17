@@ -34,13 +34,15 @@ export default function Home() {
           <div className="container mx-auto text-center">
             <h2 className="text-5xl py-2 text-gray-900 font-medium">Josh Dewhurst</h2>
             <h3 className="text-2xl py-2 text-gray-600">People Operations and HR Specialist</h3>
-            <div className="relative mx-auto rounded-full w-40 h-40 overflow-hidden mb-10">
-              <Image
-                src="https://media.licdn.com/dms/image/D5603AQGAN1FCt8PASA/profile-displayphoto-shrink_400_400/0/1676144735772?e=1726704000&v=beta&t=qhBZ7wjikh-0mW0JFc-zkWBs4UWCBUMEDW9LVNg9S0I"
-                layout="fill"
-                objectFit="cover"
-                alt="Josh Dewhurst"
-              />
+            <div className="flex justify-center my-6">
+              <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-gray-300">
+                <Image
+                  src="https://media.licdn.com/dms/image/D5603AQGAN1FCt8PASA/profile-displayphoto-shrink_400_400/0/1676144735772?e=1726704000&v=beta&t=qhBZ7wjikh-0mW0JFc-zkWBs4UWCBUMEDW9LVNg9S0I"
+                  layout="fill"
+                  objectFit="cover"
+                  alt="Josh Dewhurst"
+                />
+              </div>
             </div>
             <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
               I am passionate about creating inclusive and equitable workplaces where everyone can thrive. With a deep commitment to Diversity, Equity, and Inclusion (DEI), I enjoy reworking policies, using people analytics for equity analysis, and driving organizational change. I am enthusiastic about learning and development, compensation and benefits consulting, and fostering strong employee relations.

@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { AiFillMail, AiFillLinkedin, AiFillGithub, AiOutlineLink } from 'react-icons/ai'
+import { SiOracle, SiSap, SiPowerbi, SiTableau, SiPython, SiJavascript, SiReact, SiTailwindcss, SiMongodb, SiNodedotjs } from 'react-icons/si'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -35,6 +37,9 @@ export default function Home() {
             <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
               I am an accomplished People Operations professional with expertise in HR management, compliance, and data analysis. I have a strong background in developing compensation philosophies, enhancing employee retention, and promoting diversity and inclusion within organizations.
             </p>
+            <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
+              I hold a Bachelor of Arts in Classics from the University of California, Santa Barbara, a Data Science Certificate from UC Berkeley, a Software Engineering Certificate from General Assembly, and a Justice, Equity, Diversity, and Inclusion Certificate from the Weitzman Institute.
+            </p>
           </div>
         </section>
 
@@ -44,19 +49,15 @@ export default function Home() {
             <div className="flex justify-center space-x-10 py-10">
               <div>
                 <h4 className="text-xl text-gray-800">HR Software</h4>
-                <p className="text-gray-600">Oracle, SAP</p>
+                <p className="text-gray-600">ADP, Oracle, Workday, SAP Litmos</p>
               </div>
               <div>
-                <h4 className="text-xl text-gray-800">Microsoft Suite</h4>
-                <p className="text-gray-600">Power BI, Tableau</p>
-              </div>
-              <div>
-                <h4 className="text-xl text-gray-800">Programming</h4>
-                <p className="text-gray-600">Python, JavaScript, React</p>
+                <h4 className="text-xl text-gray-800">Technical</h4>
+                <p className="text-gray-600">Microsoft Excel (VLOOKUP, Pivot Tables), Power BI, Tableau, Python, Asana, Jira</p>
               </div>
               <div>
                 <h4 className="text-xl text-gray-800">Other Skills</h4>
-                <p className="text-gray-600">Project Management, Diversity & Inclusion</p>
+                <p className="text-gray-600">Software Engineering Certificate, Justice Equity Diversity Inclusion Certificate</p>
               </div>
             </div>
           </div>
@@ -96,11 +97,6 @@ export default function Home() {
 
               <div className="max-w-md w-full shadow-lg rounded-xl overflow-hidden bg-white hover:shadow-xl transition-all duration-300 my-5">
                 <div className="p-6">
-                  <div className="flex items-center justify-center">
-                    <a href="https://github.com/joshdewhurst/people-analytics-equity" target="_blank" rel="noopener noreferrer">
-                      <AiOutlineLink className="text-3xl hover:text-4xl text-gray-600" />
-                    </a>
-                  </div>
                   <h4 className="text-xl font-semibold text-gray-800 text-center my-4">People Analytics - Equity</h4>
                   <p className="text-gray-800 mb-4">
                     Led an equity analysis project to evaluate company demographics and identify significant concerns in leadership diversity. Generated custom reports using Microsoft Suite and presented findings to the board to drive diversity and inclusion initiatives.
@@ -134,4 +130,3 @@ export default function Home() {
     </div>
   )
 }
-

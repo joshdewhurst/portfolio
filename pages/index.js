@@ -1,17 +1,6 @@
 import Head from 'next/head'
-import {AiFillTwitterCircle, AiFillMail, AiFillLinkedin, AiFillGithub, AiOutlineLink, AiFillSignal, AiFillPushpin, AiFillTrophy} from 'react-icons/ai'
-import {SiCplusplus, SiJavascript, SiTailwindcss, SiMongodb, SiNodedotjs, SiReact, SiPython, SiJava, SiOracle, SiSap, SiPowerbi, SiTableau} from 'react-icons/si'
-import Image from 'next/image'
-import josh from '../josh.jpg'
-import jd from '../jd.jpg'
-import zeus from '../handofzeus.jpg'
-import dora from '../dora.jpg'
-import track from '../Traxxxker.jpg'
-import tr from '../TR.png'
-import tho from '../THO.jpg'
-import casl from '../CASL.png'
-import ucsb from '../ucsb.gif'
-import jbc from '../jbc.png'
+import { AiFillTwitterCircle, AiFillMail, AiFillLinkedin, AiFillGithub, AiOutlineLink, AiFillSignal, AiFillPushpin, AiFillTrophy } from 'react-icons/ai'
+import { SiOracle, SiSap, SiPowerbi, SiTableau, SiPython, SiJavascript, SiReact, SiTailwindcss, SiMongodb, SiNodedotjs } from 'react-icons/si'
 import Link from 'next/link'
 
 export default function Home() {
@@ -27,13 +16,6 @@ export default function Home() {
         <section className='p-10'>
           <div className="text-center p-10">
             <h2 className="text-7xl py-2 text-gray-900 font-medium">Josh Dewhurst</h2>
-            <div className="relative mx-auto rounded-full w-80 h-80 overflow-hidden mb-10 mt-10">
-              <Image 
-                src={josh}
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
             <h3 className="text-2xl py-2 text-gray-600">People Operations and HR Specialist</h3>
             <p className="text-medium py-5 leading-8 text-gray-800">
               Josh Dewhurst is an accomplished People Operations professional with expertise in HR management, compliance, and data analysis. He has a strong background in developing compensation philosophies, enhancing employee retention, and promoting diversity and inclusion within organizations.
@@ -41,10 +23,10 @@ export default function Home() {
           </div>
 
           <div className='items-center'>
-            <div class="relative flex py-5 items-center text-center justify-center">
-              <div class="flex-grow border-t border-gray-400"></div>
-              <span class="flex mx-4 text-gray-400">Technical Skills</span>
-              <div class="flex-grow border-t border-gray-400"></div>
+            <div className="relative flex py-5 items-center text-center justify-center">
+              <div className="flex-grow border-t border-gray-400"></div>
+              <span className="flex mx-4 text-gray-400">Technical Skills</span>
+              <div className="flex-grow border-t border-gray-400"></div>
             </div>
             <div className='justify-evenly flex p-4 text-center'>
               <div className='flex-col w-1/3'>
@@ -98,8 +80,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div class="relative flex py-5 items-center">
-              <div class="flex-grow border-t border-gray-400"></div>
+            <div className="relative flex py-5 items-center">
+              <div className="flex-grow border-t border-gray-400"></div>
             </div>
           </div>
         </section>
@@ -111,8 +93,8 @@ export default function Home() {
           <div className="flex justify-center my-10">
             <div className="max-w-3xl w-full shadow-lg rounded-xl overflow-hidden bg-white dark:bg-slate-200 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center justify-center p-4 bg-slate-400 text-white">
-                <a href="https://github.com/joshdewhurst/hand-of-zeus" target="_blank" rel="noopener noreferrer">
-                  <AiFillGithub className="text-3xl hover:text-4xl" />
+                <a href="https://joshdewhurst.github.io/wvpp-training/index.html" target="_blank" rel="noopener noreferrer">
+                  <AiOutlineLink className="text-3xl hover:text-4xl" />
                 </a>
                 <h3 className="ml-4 text-xl font-semibold">Workplace Violence Prevention Plan</h3>
               </div>
@@ -120,16 +102,22 @@ export default function Home() {
                 <p className="text-gray-800 mb-4">
                   Achieved full compliance with Senate Bill 553 by developing and implementing a comprehensive workplace violence prevention plan. Built a specialized incident reporting platform and created training using HTML and CSS.
                 </p>
-                <div className="flex justify-center">
-                  <Image src={zeus} width={500} height={500} />
-                </div>
-                <div className="mt-4 text-gray-800 flex justify-center items-center">
-                  <span className="mr-2">Built with</span>
-                  <SiJavascript className="text-2xl" />
-                  <SiTailwindcss className="text-2xl ml-4" />
-                  <SiMongodb className="text-2xl ml-4" />
-                  <SiReact className="text-2xl ml-4" />
-                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-center my-10">
+            <div className="max-w-3xl w-full shadow-lg rounded-xl overflow-hidden bg-white dark:bg-slate-200 hover:shadow-xl transition-all duration-300">
+              <div className="flex items-center justify-center p-4 bg-slate-400 text-white">
+                <a href="https://github.com/joshdewhurst/Churn-Machine-Learning" target="_blank" rel="noopener noreferrer">
+                  <AiOutlineLink className="text-3xl hover:text-4xl" />
+                </a>
+                <h3 className="ml-4 text-xl font-semibold">Python Machine Learning - Employee Churn</h3>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-800 mb-4">
+                  Developed a predictive model using various machine learning techniques to identify employees at risk of churning. Implemented strategies based on model findings, resulting in an 8% reduction in churn.
+                </p>
               </div>
             </div>
           </div>
@@ -138,7 +126,7 @@ export default function Home() {
             <div className="max-w-3xl w-full shadow-lg rounded-xl overflow-hidden bg-white dark:bg-slate-200 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center justify-center p-4 bg-slate-400 text-white">
                 <a href="https://github.com/joshdewhurst/people-analytics-equity" target="_blank" rel="noopener noreferrer">
-                  <AiFillGithub className="text-3xl hover:text-4xl" />
+                  <AiOutlineLink className="text-3xl hover:text-4xl" />
                 </a>
                 <h3 className="ml-4 text-xl font-semibold">People Analytics - Equity</h3>
               </div>
@@ -146,40 +134,6 @@ export default function Home() {
                 <p className="text-gray-800 mb-4">
                   Led an equity analysis project to evaluate company demographics and identify significant concerns in leadership diversity. Generated custom reports using Microsoft Suite and presented findings to the board to drive diversity and inclusion initiatives.
                 </p>
-                <div className="flex justify-center">
-                  <Image src={dora} width={500} height={500} />
-                </div>
-                <div className="mt-4 text-gray-800 flex justify-center items-center">
-                  <span className="mr-2">Built with</span>
-                  <SiJavascript className="text-2xl" />
-                  <SiTailwindcss className="text-2xl ml-4" />
-                  <SiMongodb className="text-2xl ml-4" />
-                  <SiNodedotjs className="text-2xl ml-4" />
-                  <SiReact className="text-2xl ml-4" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex justify-center my-10">
-            <div className="max-w-3xl w-full shadow-lg rounded-xl overflow-hidden bg-white dark:bg-slate-200 hover:shadow-xl transition-all duration-300">
-              <div className="flex items-center justify-center p-4 bg-slate-400 text-white">
-                <a href="https://github.com/joshdewhurst/python-employee-churn" target="_blank" rel="noopener noreferrer">
-                  <AiFillGithub className="text-3xl hover:text-4xl" />
-                </a>
-                <h3 className="ml-4 text-xl font-semibold">Python Machine Learning - Employee Churn</h3>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-800 mb-4">
-                  Developed a predictive model using various machine learning techniques to identify employees at risk of churning. Implemented strategies based on model findings, resulting in an 8% reduction in churn.
-                </p>
-                <div className="flex justify-center">
-                  <Image src={track} width={500} height={500} />
-                </div>
-                <div className="mt-4 text-gray-800 flex justify-center items-center">
-                  <span className="mr-2">Built with</span>
-                  <SiPython className="text-2xl" />
-                </div>
               </div>
             </div>
           </div>
@@ -195,13 +149,6 @@ export default function Home() {
               <p className="p-4 text-1xl">
                 In addition to HR, I have experience in project and event management. I have overseen projects ranging from $5,000 to $800,000, and have built internal leadership initiatives to optimize team and company performance.
               </p>
-            </div>
-            <div className="relative mx-auto rounded-full h-80 overflow-hidden mb-10 mt-10 content-start w-80 col-span-1 p-10">
-              <Image 
-                src={jd}
-                layout="fill"
-                objectFit="cover"
-              />
             </div>
           </div>
 
@@ -272,3 +219,4 @@ export default function Home() {
     </div>
   )
 }
+

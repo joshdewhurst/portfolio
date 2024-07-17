@@ -34,6 +34,14 @@ export default function Home() {
           <div className="container mx-auto text-center">
             <h2 className="text-5xl py-2 text-gray-900 font-medium">Josh Dewhurst</h2>
             <h3 className="text-2xl py-2 text-gray-600">People Operations and HR Specialist</h3>
+            <div className="relative mx-auto rounded-full w-40 h-40 overflow-hidden mb-10">
+              <Image
+                src="https://media.licdn.com/dms/image/D5603AQGAN1FCt8PASA/profile-displayphoto-shrink_400_400/0/1676144735772?e=1726704000&v=beta&t=qhBZ7wjikh-0mW0JFc-zkWBs4UWCBUMEDW9LVNg9S0I"
+                layout="fill"
+                objectFit="cover"
+                alt="Josh Dewhurst"
+              />
+            </div>
             <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
               I am passionate about creating inclusive and equitable workplaces where everyone can thrive. With a deep commitment to Diversity, Equity, and Inclusion (DEI), I enjoy reworking policies, using people analytics for equity analysis, and driving organizational change. I am enthusiastic about learning and development, compensation and benefits consulting, and fostering strong employee relations.
             </p>
@@ -133,33 +141,34 @@ export default function Home() {
                   Developed a comprehensive Compensation Philosophy emphasizing thriving wages, balance, financial sustainability, transparency, equity, and performance-based rewards. This initiative ensures fair and competitive compensation, promotes employee well-being, and supports DEI goals.
                 </p>
               </div>
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl font-semibold text-gray-800 text-center my-4">Policy Development</h4>
+                <p className="text-gray-800">
+                  Expert in policy development, having written comprehensive employee handbooks, volunteer handbooks, and standalone policies for various business needs. Examples include compliance policies, risk mitigation strategies, and process optimization guidelines.
+                </p>
+              </div>
             </div>
           </div>
         </section>
 
-        <section id="education" className="py-20 bg-white">
+        <section id="worked-at" className="py-20 bg-white">
           <div className="container mx-auto">
-            <h3 className="text-3xl py-1 text-center text-gray-800">Education & Certifications</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
-              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105 text-center">
-                <Image src="https://th.bing.com/th/id/OIP.51j02La--drxV97eVqtKzwHaDC?w=325&h=143&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="UCSB Logo" width={150} height={70} className="mx-auto" />
-                <h4 className="text-xl font-semibold text-gray-800 my-4">University of California, Santa Barbara</h4>
-                <p className="text-gray-800">Bachelor of Arts in Classics</p>
+            <h3 className="text-3xl py-1 text-center text-gray-800">Worked At</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 py-10">
+              <div className="flex items-center justify-center">
+                <Image src="https://www.sfaf.org/wp-content/uploads/2019/02/sfaf-logo-color.png" alt="San Francisco AIDS Foundation Logo" width={150} height={70} className="mx-auto" />
               </div>
-              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105 text-center">
-                <Image src="https://th.bing.com/th/id/OIP.78x1_amOuPb6wHZ-TFg3jAHaBz?w=316&h=85&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="UC Berkeley Logo" width={150} height={70} className="mx-auto" />
-                <h4 className="text-xl font-semibold text-gray-800 my-4">University of California, Berkeley</h4>
-                <p className="text-gray-800">Data Science Certificate</p>
+              <div className="flex items-center justify-center">
+                <Image src="https://images.squarespace-cdn.com/content/v1/5e2a83cef00c2743f0eab59e/1609024863226-2RRJ8IDPWKD817ASPHP2/K%26G+renewables+long_logo.png?format=1500w" alt="K and G Renewables Logo" width={150} height={70} className="mx-auto" />
               </div>
-              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105 text-center">
-                <Image src="https://clipground.com/images/general-assembly-logo-png-5.png" alt="General Assembly Logo" width={150} height={70} className="mx-auto" />
-                <h4 className="text-xl font-semibold text-gray-800 my-4">General Assembly</h4>
-                <p className="text-gray-800">Software Engineering Certificate</p>
+              <div className="flex items-center justify-center">
+                <Image src="https://www.tobenerlaw.com/wp-content/uploads/2022/06/tr.webp" alt="Tobener Ravenscroft LLP Logo" width={150} height={70} className="mx-auto" />
               </div>
-              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105 text-center">
-                <Image src="https://th.bing.com/th/id/OIP.8Qrp7DygOrwmDS0KqNhkhgAAAA?w=133&h=176&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Weitzman Institute Logo" width={150} height={70} className="mx-auto" />
-                <h4 className="text-xl font-semibold text-gray-800 my-4">Weitzman Institute</h4>
-                <p className="text-gray-800">Justice, Equity, Diversity, and Inclusion Certificate</p>
+              <div className="flex items-center justify-center">
+                <Image src="https://www.ghitterman.com/images/logos/logo-light.2403201613550.png" alt="Ghitterman Ghitterman and Feld Logo" width={150} height={70} className="mx-auto" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="https://secure.cada1.org/templates/1004/images/cad_int_hdr_logo2.png" alt="California Association of Directors of Activity Logo" width={150} height={70} className="mx-auto" />
               </div>
             </div>
           </div>

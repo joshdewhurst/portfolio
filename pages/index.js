@@ -35,7 +35,10 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-gray-900 font-medium">Josh Dewhurst</h2>
             <h3 className="text-2xl py-2 text-gray-600">People Operations and HR Specialist</h3>
             <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
-              I am an accomplished People Operations professional with expertise in HR management, compliance, and data analysis. I have a strong background in developing compensation philosophies, enhancing employee retention, and promoting diversity and inclusion within organizations.
+              I am a dedicated People Operations Business Partner with a proven track record in HR management, compliance, and data analysis. Currently working at the San Francisco AIDS Foundation, I have developed a Compensation Philosophy projected to reduce our deficit budget by 33% over 5 years, addressing equity concerns by identifying bias in salary raises and centralizing advancement processes.
+            </p>
+            <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
+              My expertise includes overhauling onboarding processes to increase retention rates, managing employee relations for over 300 employees, and writing comprehensive handbooks and policies. I am passionate about promoting diversity and inclusion, and I strive to create equitable workplaces.
             </p>
           </div>
         </section>

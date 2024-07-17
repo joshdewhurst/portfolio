@@ -25,6 +25,9 @@ export default function Home() {
                 <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
               </li>
               <li>
+                <a href="#policy-development" className="text-gray-600 hover:text-gray-900">Policy Development</a>
+              </li>
+              <li>
                 <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact Me</a>
               </li>
             </ul>
@@ -147,10 +150,67 @@ export default function Home() {
               <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl font-semibold text-gray-800 text-center my-4">Policy Development</h4>
                 <p className="text-gray-800">
-                  Expert in policy development, having written comprehensive employee handbooks, volunteer handbooks, and standalone policies for various business needs. Examples include compliance policies, risk mitigation strategies, and process optimization guidelines.
+                  Expert in policy development, having written comprehensive employee handbooks, volunteer handbooks, and standalone policies for various business needs. Examples include compliance policies, risk mitigation strategies, and process optimization guidelines. Due to confidentiality, I cannot post most of these policies but am happy to discuss more in depth. Please reach out to me for a detailed discussion.
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section id="policy-development" className="py-20 bg-white">
+          <div className="container mx-auto text-center">
+            <h3 className="text-3xl py-1 text-gray-800">Policy Development</h3>
+            <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
+              Through my professional experience, I have built out policy pipelines for policy development, collaboration, and integration. I have successfully created comprehensive policies, including but not limited to:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Comprehensive Employee Handbook</h4>
+                <p className="text-gray-600">Including policies on at-will employment, equal employment opportunity, harassment prevention, and more.</p>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Volunteer Handbook</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">HIPAA Policy</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Document Retention Policy</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Response to Traumatic Events</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Internal Job Transfer and Promotion</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Referral Bonus</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Coworking Space Policies</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Updated PTO/Sick Leave Policies</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Employee Accessing Company Services Policy</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Undesignated Leave of Absence</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Disaster Preparedness and Response</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Use of External Recruitment Firms</h4>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">AI and Data Security Policy</h4>
+              </div>
+            </div>
+            <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
+              Due to confidentiality, I cannot post most of these policies but am happy to discuss them more in depth. Please reach out to me for a detailed discussion.
+            </p>
           </div>
         </section>
 
@@ -200,3 +260,4 @@ export default function Home() {
     </div>
   )
 }
+

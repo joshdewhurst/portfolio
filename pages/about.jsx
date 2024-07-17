@@ -33,7 +33,7 @@ export default function About() {
             <div className="flex flex-col items-center">
               <div className="relative rounded-full w-40 h-40 overflow-hidden mb-10">
                 <Image
-                  src={josh}
+                  src="https://media.licdn.com/dms/image/D5603AQGAN1FCt8PASA/profile-displayphoto-shrink_400_400/0/1676144735772?e=1726704000&v=beta&t=qhBZ7wjikh-0mW0JFc-zkWBs4UWCBUMEDW9LVNg9S0I"
                   layout="fill"
                   objectFit="cover"
                   alt="Josh Dewhurst"

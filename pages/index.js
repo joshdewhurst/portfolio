@@ -35,7 +35,10 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-gray-900 font-medium">Josh Dewhurst</h2>
             <h3 className="text-2xl py-2 text-gray-600">People Operations and HR Specialist</h3>
             <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
-              My journey from the legal realm to becoming a seasoned HR Business Partner has been fueled by a deep commitment to Diversity, Equity, and Inclusion (DEI). With a robust background in employment law, I bring a unique perspective to employee relations, enabling me to collaborate effectively with legal teams to mitigate risks. My passion for reworking policies to promote equity is evident in my use of people analytics to enhance retention, termination, discipline, and advancement opportunities. I thrive on designing learning and development programs, consulting on compensation and benefits, and driving organizational change to foster inclusive workplaces.
+              I am passionate about creating inclusive and equitable workplaces where everyone can thrive. With a deep commitment to Diversity, Equity, and Inclusion (DEI), I enjoy reworking policies, using people analytics for equity analysis, and driving organizational change. I am enthusiastic about learning and development, compensation and benefits consulting, and fostering strong employee relations.
+            </p>
+            <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
+              My journey began in the legal field, where I gained valuable experience in employment law and compliance. This background has given me a unique perspective on employee relations and risk management. Transitioning to People Operations, I have worked as an HR Business Partner, leveraging my legal expertise to enhance retention, manage employee relations, and promote DEI initiatives. My experience includes designing and implementing comprehensive onboarding processes, developing compensation philosophies, and leading equity analysis projects.
             </p>
           </div>
         </section>
@@ -122,6 +125,12 @@ export default function Home() {
                 <h4 className="text-xl font-semibold text-gray-800 text-center my-4">People Analytics - Equity</h4>
                 <p className="text-gray-800">
                   Led an equity analysis project to evaluate company demographics and identify significant concerns in leadership diversity. Generated custom reports using Microsoft Suite and presented findings to the board to drive diversity and inclusion initiatives.
+                </p>
+              </div>
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl font-semibold text-gray-800 text-center my-4">Compensation Philosophy</h4>
+                <p className="text-gray-800">
+                  Developed a comprehensive Compensation Philosophy emphasizing thriving wages, balance, financial sustainability, transparency, equity, and performance-based rewards. This initiative ensures fair and competitive compensation, promotes employee well-being, and supports DEI goals.
                 </p>
               </div>
             </div>

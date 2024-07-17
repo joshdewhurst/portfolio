@@ -12,14 +12,17 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <header className="sticky top-0 bg-white shadow-md py-4">
-        <nav className="container mx-auto flex justify-between items-center px-4 md:px-0">
+        <nav className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-0">
           <h1 className="text-xl md:text-2xl font-bold text-gray-800">Josh Dewhurst</h1>
-          <ul className="flex space-x-4 md:space-x-6">
+          <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-6 mt-4 md:mt-0">
             <li>
-              <a href="/about" className="text-gray-600 hover:text-gray-900">About Me</a>
+              <a href="#about" className="text-gray-600 hover:text-gray-900">About Me</a>
             </li>
             <li>
-              <a href="/" className="text-gray-600 hover:text-gray-900">Projects</a>
+              <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
+            </li>
+            <li>
+              <a href="#policy-development" className="text-gray-600 hover:text-gray-900">Policy Development</a>
             </li>
             <li>
               <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact Me</a>

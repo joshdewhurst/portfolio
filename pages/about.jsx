@@ -41,10 +41,7 @@ export default function About() {
               </div>
               <h2 className="text-5xl py-2 text-gray-900 font-medium">About Me</h2>
               <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl">
-                I am a dedicated People Operations Business Partner with a proven track record in HR management, compliance, and data analysis. Currently working at the San Francisco AIDS Foundation, I have developed a Compensation Philosophy projected to reduce our deficit budget by 33% over 5 years, addressing equity concerns by identifying bias in salary raises and centralizing advancement processes.
-              </p>
-              <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl">
-                My expertise includes overhauling onboarding processes to increase retention rates, managing employee relations for over 300 employees, and writing comprehensive handbooks and policies. I am passionate about promoting diversity and inclusion, and I strive to create equitable workplaces.
+                My journey from the legal realm to becoming a seasoned HR Business Partner has been fueled by a deep commitment to Diversity, Equity, and Inclusion (DEI). With a robust background in employment law, I bring a unique perspective to employee relations, enabling me to collaborate effectively with legal teams to mitigate risks. My passion for reworking policies to promote equity is evident in my use of people analytics to enhance retention, termination, discipline, and advancement opportunities. I thrive on designing learning and development programs, consulting on compensation and benefits, and driving organizational change to foster inclusive workplaces.
               </p>
             </div>
           </div>

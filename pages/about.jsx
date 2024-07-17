@@ -58,13 +58,13 @@ export default function About() {
             </p>
             <div className="flex justify-center gap-16 py-3 text-gray-700">
               <a href="mailto:joshuardewhurst@gmail.com">
-                <AiFillMail className="text-5xl hover:text-gray-900" />
+                <AiFillMail className="text-5xl hover:text-gray-900 transition-transform transform hover:scale-110" />
               </a>
               <a href="https://github.com/joshdewhurst">
-                <AiFillGithub className="text-5xl hover:text-gray-900" />
+                <AiFillGithub className="text-5xl hover:text-gray-900 transition-transform transform hover:scale-110" />
               </a>
               <a href="https://www.linkedin.com/in/josh-dewhurst/">
-                <AiFillLinkedin className="text-5xl hover:text-gray-900" />
+                <AiFillLinkedin className="text-5xl hover:text-gray-900 transition-transform transform hover:scale-110" />
               </a>
             </div>
           </div>

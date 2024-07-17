@@ -41,7 +41,10 @@ export default function About() {
               </div>
               <h2 className="text-5xl py-2 text-gray-900 font-medium">About Me</h2>
               <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl">
-                My journey from the legal realm to becoming a seasoned HR Business Partner has been fueled by a deep commitment to Diversity, Equity, and Inclusion (DEI). With a robust background in employment law, I bring a unique perspective to employee relations, enabling me to collaborate effectively with legal teams to mitigate risks. My passion for reworking policies to promote equity is evident in my use of people analytics to enhance retention, termination, discipline, and advancement opportunities. I thrive on designing learning and development programs, consulting on compensation and benefits, and driving organizational change to foster inclusive workplaces.
+                I am passionate about creating inclusive and equitable workplaces where everyone can thrive. With a deep commitment to Diversity, Equity, and Inclusion (DEI), I enjoy reworking policies, using people analytics for equity analysis, and driving organizational change. I am enthusiastic about learning and development, compensation and benefits consulting, and fostering strong employee relations.
+              </p>
+              <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl">
+                My journey began in the legal field, where I gained valuable experience in employment law and compliance. This background has given me a unique perspective on employee relations and risk management. Transitioning to People Operations, I have worked as an HR Business Partner, leveraging my legal expertise to enhance retention, manage employee relations, and promote DEI initiatives. My experience includes designing and implementing comprehensive onboarding processes, developing compensation philosophies, and leading equity analysis projects.
               </p>
             </div>
           </div>

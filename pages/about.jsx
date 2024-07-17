@@ -59,46 +59,59 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Comprehensive Employee Handbook</h4>
-                <p className="text-gray-600">Including policies on at-will employment, equal employment opportunity, harassment prevention, and more.</p>
+                <p className="text-gray-600">Including policies on at-will employment, equal employment opportunity, harassment prevention, and more. This handbook ensures legal compliance and provides clear guidelines for employees.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Volunteer Handbook</h4>
+                <p className="text-gray-600">A comprehensive guide for volunteers, detailing roles, responsibilities, and organizational policies to ensure a consistent and supportive volunteer experience.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">HIPAA Policy</h4>
+                <p className="text-gray-600">Ensuring compliance with HIPAA regulations to protect patient privacy and secure sensitive health information.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Document Retention Policy</h4>
+                <p className="text-gray-600">Establishes guidelines for retaining and disposing of company documents, ensuring legal compliance and efficient record management.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Response to Traumatic Events</h4>
+                <p className="text-gray-600">Provides protocols for supporting employees during and after traumatic events, promoting a compassionate and responsive workplace environment.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Internal Job Transfer and Promotion</h4>
+                <p className="text-gray-600">Outlines the process for internal job transfers and promotions, ensuring transparency and equity in career advancement opportunities.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Referral Bonus</h4>
+                <p className="text-gray-600">Defines the criteria and process for employee referral bonuses, incentivizing staff to refer qualified candidates.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Coworking Space Policies</h4>
+                <p className="text-gray-600">Guidelines for using coworking spaces and hotel desking, fostering a flexible and efficient work environment.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Updated PTO/Sick Leave Policies</h4>
+                <p className="text-gray-600">Comprehensive policies for paid time off and sick leave, supporting employee well-being and ensuring legal compliance.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Employee Accessing Company Services Policy</h4>
+                <p className="text-gray-600">Guidelines for employees accessing company services, maintaining confidentiality and integrity in service delivery.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Undesignated Leave of Absence</h4>
+                <p className="text-gray-600">Defines the process for requesting and approving undesignated leave, ensuring consistency and fairness.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Disaster Preparedness and Response</h4>
+                <p className="text-gray-600">Protocols for disaster preparedness and response, ensuring employee safety and business continuity.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">Use of External Recruitment Firms</h4>
+                <p className="text-gray-600">Guidelines for engaging external recruitment firms, ensuring effective and compliant recruitment processes.</p>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
                 <h4 className="text-xl text-gray-800 mb-2">AI and Data Security Policy</h4>
+                <p className="text-gray-600">Policies for the use of AI and data security, protecting sensitive information and ensuring compliance with data protection regulations.</p>
               </div>
             </div>
             <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">

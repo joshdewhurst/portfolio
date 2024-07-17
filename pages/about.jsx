@@ -1,8 +1,16 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { AiFillMail, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { FiMenu, FiX } from 'react-icons/fi'
 
 export default function About() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen)
+  }
+
   return (
     <section className='bg-gray-100'>
       <Head>
@@ -12,9 +20,14 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <header className="sticky top-0 bg-white shadow-md py-4">
-        <nav className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-0">
+        <nav className="container mx-auto flex justify-between items-center px-4 md:px-0">
           <h1 className="text-xl md:text-2xl font-bold text-gray-800">Josh Dewhurst</h1>
-          <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-6 mt-4 md:mt-0">
+          <div className="md:hidden">
+            <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
+              {menuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+            </button>
+          </div>
+          <ul className={`flex-col md:flex-row md:flex ${menuOpen ? 'flex' : 'hidden'} space-y-4 md:space-y-0 space-x-0 md:space-x-6 mt-4 md:mt-0`}>
             <li>
               <a href="#about" className="text-gray-600 hover:text-gray-900">About Me</a>
             </li>

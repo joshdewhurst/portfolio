@@ -35,10 +35,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-gray-900 font-medium">Josh Dewhurst</h2>
             <h3 className="text-2xl py-2 text-gray-600">People Operations and HR Specialist</h3>
             <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
-              I am a dedicated People Operations Business Partner with a proven track record in HR management, compliance, and data analysis. Currently working at the San Francisco AIDS Foundation, I have developed a Compensation Philosophy projected to reduce our deficit budget by 33% over 5 years, addressing equity concerns by identifying bias in salary raises and centralizing advancement processes.
-            </p>
-            <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl mx-auto">
-              My expertise includes overhauling onboarding processes to increase retention rates, managing employee relations for over 300 employees, and writing comprehensive handbooks and policies. I am passionate about promoting diversity and inclusion, and I strive to create equitable workplaces.
+              My journey from the legal realm to becoming a seasoned HR Business Partner has been fueled by a deep commitment to Diversity, Equity, and Inclusion (DEI). With a robust background in employment law, I bring a unique perspective to employee relations, enabling me to collaborate effectively with legal teams to mitigate risks. My passion for reworking policies to promote equity is evident in my use of people analytics to enhance retention, termination, discipline, and advancement opportunities. I thrive on designing learning and development programs, consulting on compensation and benefits, and driving organizational change to foster inclusive workplaces.
             </p>
           </div>
         </section>
@@ -53,25 +50,42 @@ export default function Home() {
                   <li>ADP</li>
                   <li>Oracle</li>
                   <li>Workday</li>
-                  <li>SAP Litmos</li>
                 </ul>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
-                <h4 className="text-xl text-gray-800 mb-2">Technical</h4>
+                <h4 className="text-xl text-gray-800 mb-2">Data Analysis</h4>
                 <ul className="text-gray-600">
                   <li>Microsoft Excel (VLOOKUP, Pivot Tables)</li>
                   <li>Power BI</li>
                   <li>Tableau</li>
                   <li>Python</li>
+                </ul>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Project Management</h4>
+                <ul className="text-gray-600">
                   <li>Asana</li>
+                  <li>Trello</li>
                   <li>Jira</li>
                 </ul>
               </div>
               <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
-                <h4 className="text-xl text-gray-800 mb-2">Other Skills</h4>
+                <h4 className="text-xl text-gray-800 mb-2">Compliance and Legal</h4>
                 <ul className="text-gray-600">
-                  <li>Software Engineering Certificate</li>
-                  <li>Justice Equity Diversity Inclusion Certificate</li>
+                  <li>OSHA</li>
+                  <li>EEOC</li>
+                  <li>FMLA</li>
+                  <li>ADA</li>
+                  <li>Workers Comp</li>
+                  <li>Wrongful Termination</li>
+                </ul>
+              </div>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Learning and Development</h4>
+                <ul className="text-gray-600">
+                  <li>Instructional Design</li>
+                  <li>SAP Litmos</li>
+                  <li>Workday Learning</li>
                 </ul>
               </div>
             </div>

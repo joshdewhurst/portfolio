@@ -46,18 +46,33 @@ export default function Home() {
         <section id="skills" className="py-20 bg-white">
           <div className="container mx-auto text-center">
             <h3 className="text-3xl py-1 text-gray-800">Technical Skills</h3>
-            <div className="flex justify-center space-x-10 py-10">
-              <div>
-                <h4 className="text-xl text-gray-800">HR Software</h4>
-                <p className="text-gray-600">ADP, Oracle, Workday, SAP Litmos</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-10">
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">HR Software</h4>
+                <ul className="text-gray-600">
+                  <li>ADP</li>
+                  <li>Oracle</li>
+                  <li>Workday</li>
+                  <li>SAP Litmos</li>
+                </ul>
               </div>
-              <div>
-                <h4 className="text-xl text-gray-800">Technical</h4>
-                <p className="text-gray-600">Microsoft Excel (VLOOKUP, Pivot Tables), Power BI, Tableau, Python, Asana, Jira</p>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Technical</h4>
+                <ul className="text-gray-600">
+                  <li>Microsoft Excel (VLOOKUP, Pivot Tables)</li>
+                  <li>Power BI</li>
+                  <li>Tableau</li>
+                  <li>Python</li>
+                  <li>Asana</li>
+                  <li>Jira</li>
+                </ul>
               </div>
-              <div>
-                <h4 className="text-xl text-gray-800">Other Skills</h4>
-                <p className="text-gray-600">Software Engineering Certificate, Justice Equity Diversity Inclusion Certificate</p>
+              <div className="p-6 bg-gray-200 rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl text-gray-800 mb-2">Other Skills</h4>
+                <ul className="text-gray-600">
+                  <li>Software Engineering Certificate</li>
+                  <li>Justice Equity Diversity Inclusion Certificate</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -66,42 +81,34 @@ export default function Home() {
         <section id="projects" className="py-20">
           <div className="container mx-auto">
             <h3 className="text-3xl py-1 text-center text-gray-800">Notable Projects</h3>
-            <div className="flex flex-wrap justify-center space-x-10">
-              <div className="max-w-md w-full shadow-lg rounded-xl overflow-hidden bg-white hover:shadow-xl transition-all duration-300 my-5">
-                <div className="p-6">
-                  <div className="flex items-center justify-center">
-                    <a href="https://joshdewhurst.github.io/wvpp-training/index.html" target="_blank" rel="noopener noreferrer">
-                      <AiOutlineLink className="text-3xl hover:text-4xl text-gray-600" />
-                    </a>
-                  </div>
-                  <h4 className="text-xl font-semibold text-gray-800 text-center my-4">Workplace Violence Prevention Plan</h4>
-                  <p className="text-gray-800 mb-4">
-                    Achieved full compliance with Senate Bill 553 by developing and implementing a comprehensive workplace violence prevention plan. Built a specialized incident reporting platform and created training using HTML and CSS.
-                  </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105">
+                <div className="flex items-center justify-center">
+                  <a href="https://joshdewhurst.github.io/wvpp-training/index.html" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineLink className="text-3xl hover:text-4xl text-gray-600" />
+                  </a>
                 </div>
+                <h4 className="text-xl font-semibold text-gray-800 text-center my-4">Workplace Violence Prevention Plan</h4>
+                <p className="text-gray-800">
+                  Achieved full compliance with Senate Bill 553 by developing and implementing a comprehensive workplace violence prevention plan. Built a specialized incident reporting platform and created training using HTML and CSS.
+                </p>
               </div>
-
-              <div className="max-w-md w-full shadow-lg rounded-xl overflow-hidden bg-white hover:shadow-xl transition-all duration-300 my-5">
-                <div className="p-6">
-                  <div className="flex items-center justify-center">
-                    <a href="https://github.com/joshdewhurst/Churn-Machine-Learning" target="_blank" rel="noopener noreferrer">
-                      <AiOutlineLink className="text-3xl hover:text-4xl text-gray-600" />
-                    </a>
-                  </div>
-                  <h4 className="text-xl font-semibold text-gray-800 text-center my-4">Python Machine Learning - Employee Churn</h4>
-                  <p className="text-gray-800 mb-4">
-                    Developed a predictive model using various machine learning techniques to identify employees at risk of churning. Implemented strategies based on model findings, resulting in an 8% reduction in churn.
-                  </p>
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105">
+                <div className="flex items-center justify-center">
+                  <a href="https://github.com/joshdewhurst/Churn-Machine-Learning" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineLink className="text-3xl hover:text-4xl text-gray-600" />
+                  </a>
                 </div>
+                <h4 className="text-xl font-semibold text-gray-800 text-center my-4">Python Machine Learning - Employee Churn</h4>
+                <p className="text-gray-800">
+                  Developed a predictive model using various machine learning techniques to identify employees at risk of churning. Implemented strategies based on model findings, resulting in an 8% reduction in churn.
+                </p>
               </div>
-
-              <div className="max-w-md w-full shadow-lg rounded-xl overflow-hidden bg-white hover:shadow-xl transition-all duration-300 my-5">
-                <div className="p-6">
-                  <h4 className="text-xl font-semibold text-gray-800 text-center my-4">People Analytics - Equity</h4>
-                  <p className="text-gray-800 mb-4">
-                    Led an equity analysis project to evaluate company demographics and identify significant concerns in leadership diversity. Generated custom reports using Microsoft Suite and presented findings to the board to drive diversity and inclusion initiatives.
-                  </p>
-                </div>
+              <div className="p-6 bg-white rounded shadow-lg transition-transform transform hover:scale-105">
+                <h4 className="text-xl font-semibold text-gray-800 text-center my-4">People Analytics - Equity</h4>
+                <p className="text-gray-800">
+                  Led an equity analysis project to evaluate company demographics and identify significant concerns in leadership diversity. Generated custom reports using Microsoft Suite and presented findings to the board to drive diversity and inclusion initiatives.
+                </p>
               </div>
             </div>
           </div>
@@ -115,13 +122,13 @@ export default function Home() {
             </p>
             <div className="flex justify-center gap-16 py-3 text-gray-700">
               <a href="mailto:joshuardewhurst@gmail.com">
-                <AiFillMail className="text-5xl hover:text-gray-900" />
+                <AiFillMail className="text-5xl hover:text-gray-900 transition-transform transform hover:scale-110" />
               </a>
               <a href="https://github.com/joshdewhurst">
-                <AiFillGithub className="text-5xl hover:text-gray-900" />
+                <AiFillGithub className="text-5xl hover:text-gray-900 transition-transform transform hover:scale-110" />
               </a>
               <a href="https://www.linkedin.com/in/josh-dewhurst/">
-                <AiFillLinkedin className="text-5xl hover:text-gray-900" />
+                <AiFillLinkedin className="text-5xl hover:text-gray-900 transition-transform transform hover:scale-110" />
               </a>
             </div>
           </div>

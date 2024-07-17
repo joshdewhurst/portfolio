@@ -22,7 +22,7 @@ export default function About() {
               <a href="/" className="text-gray-600 hover:text-gray-900">Projects</a>
             </li>
             <li>
-              <a href="/contact" className="text-gray-600 hover:text-gray-900">Contact Me</a>
+              <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact Me</a>
             </li>
           </ul>
         </nav>
@@ -44,7 +44,7 @@ export default function About() {
                 Hi! My name is Josh Dewhurst, and I am a People Operations specialist with a strong background in HR management, compliance, and data analysis. I am located in San Francisco, CA, and I am passionate about promoting diversity and inclusion within organizations.
               </p>
               <p className="text-lg py-5 leading-8 text-gray-800 max-w-2xl">
-                In addition to HR, I have experience in project and event management. I have overseen projects ranging from $5,000 to $800,000 and have built internal leadership initiatives to optimize team and company performance.
+                I hold a Bachelor of Arts in Classics from the University of California, Santa Barbara, a Data Science Certificate from UC Berkeley, a Software Engineering Certificate from General Assembly, and a Justice, Equity, Diversity, and Inclusion Certificate from the Weitzman Institute.
               </p>
             </div>
           </div>

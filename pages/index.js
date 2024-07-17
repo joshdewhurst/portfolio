@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import { AiFillMail, AiFillLinkedin, AiFillGithub, AiOutlineLink } from 'react-icons/ai'
-import { SiOracle, SiSap, SiPowerbi, SiTableau, SiPython, SiJavascript, SiReact, SiTailwindcss, SiMongodb, SiNodedotjs } from 'react-icons/si'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (

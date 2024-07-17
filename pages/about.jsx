@@ -12,7 +12,7 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <header className="sticky top-0 bg-white shadow-md py-4">
-        <nav className="container mx-auto flex justify-between items-center">
+        <nav className="container mx-auto flex justify-between items-center px-4 md:px-0">
           <h1 className="text-xl md:text-2xl font-bold text-gray-800">Josh Dewhurst</h1>
           <ul className="flex space-x-4 md:space-x-6">
             <li>
@@ -41,12 +41,14 @@ export default function About() {
               </div>
             </div>
             <h2 className="text-4xl md:text-5xl py-2 text-gray-900 font-medium">About Me</h2>
-            <p className="text-base md:text-lg py-5 leading-8 text-gray-800 max-w-xl mx-auto">
-              I am passionate about creating inclusive and equitable workplaces where everyone can thrive. With a deep commitment to Diversity, Equity, and Inclusion (DEI), I enjoy reworking policies, using people analytics for equity analysis, and driving organizational change. I am enthusiastic about learning and development, compensation and benefits consulting, and fostering strong employee relations.
-            </p>
-            <p className="text-base md:text-lg py-5 leading-8 text-gray-800 max-w-xl mx-auto">
-              My journey began in the legal field, where I gained valuable experience in employment law and compliance. This background has given me a unique perspective on employee relations and risk management. Transitioning to People Operations, I have worked as an HR Business Partner, leveraging my legal expertise to enhance retention, manage employee relations, and promote DEI initiatives. My experience includes designing and implementing comprehensive onboarding processes, developing compensation philosophies, and leading equity analysis projects.
-            </p>
+            <div className="max-w-lg mx-auto">
+              <p className="text-base md:text-lg py-5 leading-8 text-gray-800">
+                I am passionate about creating inclusive and equitable workplaces where everyone can thrive. With a deep commitment to Diversity, Equity, and Inclusion (DEI), I enjoy reworking policies, using people analytics for equity analysis, and driving organizational change. I am enthusiastic about learning and development, compensation and benefits consulting, and fostering strong employee relations.
+              </p>
+              <p className="text-base md:text-lg py-5 leading-8 text-gray-800">
+                My journey began in the legal field, where I gained valuable experience in employment law and compliance. This background has given me a unique perspective on employee relations and risk management. Transitioning to People Operations, I have worked as an HR Business Partner, leveraging my legal expertise to enhance retention, manage employee relations, and promote DEI initiatives. My experience includes designing and implementing comprehensive onboarding processes, developing compensation philosophies, and leading equity analysis projects.
+              </p>
+            </div>
           </div>
         </section>
 

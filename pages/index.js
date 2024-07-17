@@ -1,9 +1,17 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import { AiFillMail, AiFillLinkedin, AiFillGithub, AiOutlineLink } from 'react-icons/ai'
+import { FiMenu, FiX } from 'react-icons/fi'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen)
+  }
+
   return (
     <div>
       <Head>
@@ -13,27 +21,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gray-100 px-4 md:px-10 font-sans">
-        <header className="sticky top-0 bg-white shadow-md py-4">
-          <nav className="container mx-auto flex justify-between items-center">
-            <h1 className="text-xl md:text-2xl font-bold text-gray-800">Josh Dewhurst</h1>
-            <ul className="flex space-x-4 md:space-x-6">
-              <li>
-                <a href="#about" className="text-gray-600 hover:text-gray-900">About Me</a>
-              </li>
-              <li>
-                <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
-              </li>
-              <li>
-                <a href="#policy-development" className="text-gray-600 hover:text-gray-900">Policy Development</a>
-              </li>
-              <li>
-                <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact Me</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+      <header className="sticky top-0 bg-white shadow-md py-4">
+        <nav className="container mx-auto flex justify-between items-center px-4 md:px-0">
+          <h1 className="text-xl md:text-2xl font-bold text-gray-800">Josh Dewhurst</h1>
+          <div className="md:hidden">
+            <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
+              {menuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+            </button>
+          </div>
+          <ul className={`flex-col md:flex-row md:flex ${menuOpen ? 'flex' : 'hidden'} space-y-4 md:space-y-0 space-x-0 md:space-x-6 mt-4 md:mt-0`}>
+            <li>
+              <a href="#about" className="text-gray-600 hover:text-gray-900">About Me</a>
+            </li>
+            <li>
+              <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
+            </li>
+            <li>
+              <a href="#policy-development" className="text-gray-600 hover:text-gray-900">Policy Development</a>
+            </li>
+            <li>
+              <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
+      <main className="bg-gray-100 px-4 md:px-10 font-sans">
         <section id="about" className="py-20">
           <div className="container mx-auto text-center">
             <h2 className="text-4xl md:text-5xl py-2 text-gray-900 font-medium">Josh Dewhurst</h2>
